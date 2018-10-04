@@ -1,0 +1,10 @@
+<div>
+    
+    <h2>{{ searchText }} Weather</h2>
+
+    <input [(ngModel)]="searchText" placeholder="Enter city, state"/>
+
+    <app-weather-forecast-list [searchText]="searchText"></app-weather-forecast-list> 
+
+  </div>
+  
