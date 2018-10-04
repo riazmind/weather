@@ -6,17 +6,12 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { WeatherForecastComponent } from './weather-forecast/weather-forecast.component';
 import { WeatherForecastListComponent } from './weather-forecast-list/weather-forecast-list.component';
-//import { CityDetails } from './models/city-details';
-//import { WeatherForecast } from './models/weather-forecast';
-
 
 @NgModule({
   declarations: [
     AppComponent,
     WeatherForecastComponent,
-    WeatherForecastListComponent,
-    //CityDetails,
-    //WeatherForecast
+    WeatherForecastListComponent
   ],
   imports: [
     BrowserModule,
