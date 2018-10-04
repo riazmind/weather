@@ -1,6 +1,6 @@
-# Weather
-## INSTRUCTIONS
-### MOVING THE HTTP REQUEST AND THE CITY DETAILS TO THE weather-forecast-list.  ADDITIONALLY, WE # WANT TO EXTRAPOLATE THE DISPLAYED RESULT WITHIN A weather-forecast COMPONENT.
+# WEATHER APP
+## Instructions
+### Move the HTTP REQUEST and the city details to the weather-forecast-list.  Aditionaly, extrapolate the displayed result within a weather-forecast component.
 
 1. CREATE MODELS (Classes) WITH APPROPRIATE ATTRIBUTES FOR CityDetails and WeatherForecast
 
