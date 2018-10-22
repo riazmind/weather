@@ -1,0 +1,14 @@
+<span>
+  <button (click)="getWeather()"> Get Weather </button>
+</span>
+<br><br>
+
+<div>
+    <div *ngFor="let dailyForecast of weatherForecasts">
+      <div>
+        <app-weather-forecast [forecast] = dailyForecast></app-weather-forecast>
+      </div>
+    </div>
+</div>
+
+  
